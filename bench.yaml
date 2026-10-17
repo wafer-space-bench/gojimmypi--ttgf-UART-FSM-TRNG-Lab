@@ -1,0 +1,28 @@
+source:
+  url: https://github.com/gojimmypi/ttgf-UART-FSM-TRNG-Lab
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf26a
+  slot: tt_um_gojimmypi_ttgf_UART_FSM_TRNG_Lab
+  project: 'Hardware Entropy Explorer: UART/SPI TRNG and PUF'
+  size: 1x2
+  kind: digital (Verilog)
+  commit: a59efdc8a51dcd5f2c868acfd4993b5c532e6dc0
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf26a/tt_um_gojimmypi_ttgf_UART_FSM_TRNG_Lab
+  branch: tapeout/tinytapeout/ttgf26a/tt_um_gojimmypi_ttgf_UART_FSM_TRNG_Lab
+  page: https://app.tinytapeout.com/shuttles/ttgf26a
+generated: '2026-10-17T23:41:57Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf26a/tt_um_gojimmypi_ttgf_UART_FSM_TRNG_Lab
+- upstream/dev
+- upstream/main
+- upstream/ulx3s-test
